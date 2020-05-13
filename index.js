@@ -46,8 +46,9 @@ If your name is `Oscar` mortgageCalculator() should return "Oscar, your monthly 
 //   const monthlyInterestRate = interestRate / 12; // monthly interest rate
 //   const periods = years * 12; // months
 //   const monthlyRate = principal * (monthlyInterestRate * Math.pow(1 + monthlyInterestRate, periods)) / (bottom = Math.pow(1 + monthlyInterestRate, periods) - 1);
-//   console.log(name + ', your monthly rate is ' + monthlyRate);
+//   console.log(name + ', your monthly rate is ' + monthlyRate.toFixed(2));
 // }
+// mortgageCalculator();
 
 
 
@@ -62,8 +63,9 @@ mortgageCalculator(200000, 0.05, 30); <-- should return 1,073.64
 //   const monthlyInterestRate = interestRate / 12; // monthly interest rate
 //   const periods = years * 12; // months
 //   const monthlyRate = principal * (monthlyInterestRate * Math.pow(1 + monthlyInterestRate, periods)) / (bottom = Math.pow(1 + monthlyInterestRate, periods) - 1);
-//   console.log(name + ', your monthly rate is ' + monthlyRate);
+//   console.log(name + ', your monthly rate is ' + monthlyRate.toFixed(2));
 // }
+// mortgageCalculator(200000, .05, 30);
 
 
 // 🏡 Task 5: Conditionals
@@ -79,8 +81,9 @@ Then, add control flow within your function such that IF creditScore is above 74
 //   const monthlyInterestRate = interestRate / 12; // monthly interest rate
 //   const periods = years * 12; // months
 //   const monthlyRate = principal * (monthlyInterestRate * Math.pow(1 + monthlyInterestRate, periods)) / (bottom = Math.pow(1 + monthlyInterestRate, periods) - 1);
-//   console.log(name + ', your monthly rate is ' + monthlyRate);
+//   console.log(name + ', your monthly rate is ' + monthlyRate.toFixed(2));
 // }
+// mortgageCalculator(200000, .05, 30);
 
 
 
